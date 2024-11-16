@@ -14,7 +14,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="bg-gray-900 text-white shadow-md">
+    <nav className="bg-gray-900 text-white shadow-md fixed top-0 w-full z-50">
       <div
         className="container mx-auto flex justify-between items-center px-6 py-4"
         data-aos="fade-down"
@@ -49,7 +49,7 @@ export default function Navbar() {
             className="relative group hover:text-blue-400 transition-colors duration-300"
             data-aos="fade-up"
           >
-            Services
+            Products
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a

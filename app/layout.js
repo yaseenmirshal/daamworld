@@ -1,6 +1,7 @@
 import { Montserrat } from 'next/font/google'; // Import Montserrat from Google Fonts
 import localFont from 'next/font/local'; 
 import './globals.css'; // Import your global styles
+import Navbar from './Route/Navbar';
 
 // Import custom fonts
 const geistSans = localFont({
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`} // Apply fonts globally
       >
+        <Navbar/>
         {children} {/* Render children */}
       </body>
     </html>
