@@ -44,7 +44,7 @@ const ComingSoonPage = () => {
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-6 mt-8">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/1DU9en7X2q/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#ddb264]"
@@ -52,7 +52,7 @@ const ComingSoonPage = () => {
             <FaFacebookF size={24} />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/DaamWorld?t=BrQI5z7rs7sq9axlaBF64g&s=09"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#ddb264]"
@@ -60,7 +60,7 @@ const ComingSoonPage = () => {
             <FaTwitter size={24} />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/daamworld/profilecard/?igsh=MWNuamo0amYxM2lxMg=="
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#ddb264]"
