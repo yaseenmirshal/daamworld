@@ -7,15 +7,17 @@ import Contact from "./Route/Contact";
 import Footer from "./Route/Footer";
 import Landing from "./Route/Landing";
 
+import Comingsoon from "./Route/Comingsoon";
+
 export default function Home() {
   return (
    <>
-   
-   <Landing/>
-   <About/>
-   <Product/>
-   <Contact/>
-   <Footer/>
+   <Comingsoon/>
+   {/* <Landing/> */}
+   {/* <About/> */}
+   {/* <Product/> */}
+   {/* <Contact/> */}
+   {/* <Footer/> */}
    </>
   );
 }

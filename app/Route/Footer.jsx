@@ -97,7 +97,7 @@ export default function Footer() {
         {/* Footer Bottom Section */}
         <div className="mt-12 border-t pt-8">
           <p className="text-left text-sm text-gray-400">
-            © 2024 DaamWorld. All rights reserved.
+            © 2024 yminnovation. All rights reserved.
           </p>
         </div>
       </div>
