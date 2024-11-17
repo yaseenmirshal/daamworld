@@ -23,7 +23,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: 'Daam World',
+  title: 'Daam',
   description: 'The Future Flow',
 };
 
