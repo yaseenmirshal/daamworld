@@ -30,7 +30,7 @@ export default function AboutSection() {
         </div>
 
         {/* Right: Mission and Vision Cards */}
-        <div className="flex-1 space-y-6" data-aos="fade-left">
+        <div className="flex-1 space-y-6" data-aos="fade-right">
           {/* Our Mission Card */}
           <div className="bg-[#2e2e2e] rounded-lg p-6 shadow-lg flex items-center space-x-4">
             <img
@@ -40,7 +40,7 @@ export default function AboutSection() {
             />
             <div>
               <h3 className="text-xl font-bold text-[#ddb264]">Our Mission</h3>
-              <p className="text-gray-300 text-sm leading-relaxed">
+              <p className="text-[#faf1d4] text-sm leading-relaxed">
                 To innovate and deliver world-class solutions that empower businesses and individuals to achieve their goals.
               </p>
             </div>

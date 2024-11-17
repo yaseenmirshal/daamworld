@@ -20,7 +20,7 @@ export default function Landing() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-        <div className="relative z-10 text-center px-6" data-aos="fade-up">
+        <div className="relative z-10 text-left md:text-center px-6" data-aos="fade-up">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Discover Luxury Bath Fittings
           </h1>
@@ -29,14 +29,14 @@ export default function Landing() {
           </p>
           <a
             href="#products"
-            className="px-8 py-3 bg-[#2e2e2e] text-white rounded-lg hover:bg-[#ddb264] transition duration-300"
+            className="px-8 py-3 bg-[#2e2e2e] text-white rounded-lg hover:bg-[#ddb264] hover:text-black transition duration-300"
           >
             Explore Our Products
           </a>
         </div>
       </section>
 
-      <section className="h-96 bg-white text-black flex items-center">
+      <section className="h-[550px] md:h-96 bg-white text-black flex items-center">
         <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Text Content */}
           <div className="flex flex-col justify-center space-y-6" data-aos="fade-right">
@@ -52,7 +52,7 @@ export default function Landing() {
           {/* Image */}
           <div
             className="flex justify-center items-center"
-            data-aos="fade-left"
+            data-aos="fade-up"
           >
             <img
               src="/pictures/tapremoved.png" // Replace with your image path

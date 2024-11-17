@@ -1,8 +1,8 @@
 'use client';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { FaFacebookF, FaInstagram, FaPinterestP, FaYoutube, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
   useEffect(() => {
@@ -76,20 +76,37 @@ export default function Footer() {
               <li>Email: info@daamworld.com</li>
               <li>WhatsApp: +1 234 567 891</li>
             </ul>
-            <div className="flex space-x-4 mt-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <FaFacebookF className="text-2xl hover:text-blue-500" />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <FaTwitter className="text-2xl hover:text-blue-400" />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                <FaInstagram className="text-2xl hover:text-pink-500" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <FaLinkedinIn className="text-2xl hover:text-blue-700" />
-              </a>
-            </div>
+           
+
+
+<div className="flex space-x-4 mt-4">
+  {/* Facebook */}
+  <a href="https://www.facebook.com/share/1DU9en7X2q/" target="_blank" rel="noopener noreferrer">
+    <FaFacebookF className="text-2xl hover:text-blue-500" />
+  </a>
+  
+  {/* Instagram */}
+  <a href="https://www.instagram.com/daamworld/profilecard/?igsh=MWNuamo0amYxM2lxMg==" target="_blank" rel="noopener noreferrer">
+    <FaInstagram className="text-2xl hover:text-pink-500" />
+  </a>
+  
+  {/* Pinterest */}
+  <a href="https://pin.it/5PdTXSXnx" target="_blank" rel="noopener noreferrer">
+    <FaPinterestP className="text-2xl hover:text-red-600" />
+  </a>
+  
+  {/* YouTube */}
+  <a href="https://youtube.com/@daamworld?si=yk3vNas0FwcYj-Z8" target="_blank" rel="noopener noreferrer">
+    <FaYoutube className="text-2xl hover:text-red-500" />
+  </a>
+
+  {/* Twitter */}
+  <a href="https://x.com/DaamWorld?t=BrQI5z7rs7sq9axlaBF64g&s=09" target="_blank" rel="noopener noreferrer">
+    <FaTwitter className="text-2xl hover:text-blue-400" />
+  </a>
+</div>
+
+
           </div>
 
         </div>
