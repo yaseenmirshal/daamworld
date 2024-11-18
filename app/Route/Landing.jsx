@@ -15,7 +15,7 @@ export default function Landing() {
     <>
       <section
         className="relative bg-cover bg-center h-screen flex items-center justify-center text-white"
-        style={{ backgroundImage: `url('/pictures/tap.jpg')` }} // Replace with your image
+        style={{ backgroundImage: `url('/pictures/bathroom.jpg')` }} // Replace with your image
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>

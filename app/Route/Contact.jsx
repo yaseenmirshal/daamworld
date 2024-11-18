@@ -25,7 +25,7 @@ export default function ContactSection() {
                 <FaMapMarkerAlt className="text-2xl mr-3" />
                 <h3 className="text-xl font-semibold">Our Location</h3>
               </div>
-              <p>1234 Bath St, Suite 101, City, Country 56789</p>
+              <p>India </p>
             </div>
 
             <div className="bg-[#2e2e2e] p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
@@ -33,7 +33,7 @@ export default function ContactSection() {
                 <FaPhone className="text-2xl mr-3" />
                 <h3 className="text-xl font-semibold">Call Us</h3>
               </div>
-              <p>+1 (800) 123-4567</p>
+              <p>+91 9999999999</p>
             </div>
 
             <div className="bg-[#2e2e2e] p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
@@ -41,7 +41,7 @@ export default function ContactSection() {
                 <FaWhatsapp className="text-2xl mr-3" />
                 <h3 className="text-xl font-semibold">WhatsApp</h3>
               </div>
-              <p>+1 (800) 765-4321</p>
+              <p>+91 999 999 999</p>
             </div>
           </div>
 
