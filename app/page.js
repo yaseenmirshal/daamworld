@@ -14,14 +14,14 @@ import Comingsoon from "./Route/Comingsoon";
 export default function Home() {
   return (
    <>
-   {/* <Comingsoon/> */}
-   <Landing/>
-   <About/>
-   <Halfsection/>
-   <Curousel/>
-   <Product/>
-   <Contact/>
-   <Footer/>
+   <Comingsoon/>
+   {/* <Landing/> */}
+   {/* <About/> */}
+   {/* <Halfsection/> */}
+   {/* <Curousel/> */}
+   {/* <Product/> */}
+   {/* <Contact/> */}
+   {/* <Footer/> */}
    </>
   );
 }
