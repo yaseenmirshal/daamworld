@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`} // Apply fonts globally
       >
-        <Navbar/>
+        {/* <Navbar/> */}
         {children} {/* Render children */}
       </body>
     </html>
