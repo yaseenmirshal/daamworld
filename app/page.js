@@ -25,13 +25,25 @@ export default function Home() {
 
   if (isLoading) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <img
-          src="/pictures/daamyell.png" // Replace with your loader image path
-          alt="Loading..."
-          className="h-screen w-full"
-        />
-      </div>
+      <>
+      {/* Desktop Loader */}
+<div className="flex items-center justify-center min-h-screen bg-black hidden md:block">
+  <img
+    src="/pictures/daamyell.png" // Replace with your loader image path
+    alt="Loading..."
+    className="h-full w-full object-cover"
+  />
+</div>
+
+{/* Mobile Loader */}
+<div className="flex md:hidden items-center justify-center min-h-screen bg-black">
+  <img
+    src="/pictures/daamport.png" // Replace with your loader image path
+    alt="Loading..."
+    className="h-full w-full object-cover"
+  />
+</div>
+</>
     );
   }
 
