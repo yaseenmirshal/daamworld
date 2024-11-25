@@ -47,7 +47,7 @@ const HalfCarouselWithText = ({ heading, text, images, animation }) => {
       {/* Text Half */}
       <div
         className="w-full lg:w-1/2 md:p-8 p-5 mt-5 mb-5 md:mt-0 md:mb-0 flex flex-col justify-center items-start space-y-6"
-        data-aos="fade-left"
+        data-aos="fade-right"
       >
         <h2 className="text-3xl lg:text-4xl md:pl-10 pr-10 font-bold text-[#1e1e1e]">
           {heading}

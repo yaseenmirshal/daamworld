@@ -27,8 +27,8 @@ const SectionWithCarousel = ({ heading, subheading, text, features, images, reve
   };
 
   return (
-    <section
-      className={`py-16 px-6 lg:px-12 bg-[#1e1e1e] flex flex-col-reverse lg:flex-row items-center ${
+    <section id='products'
+      className={`py-7 md:py-16 px-6 lg:px-12 bg-[#1e1e1e] flex flex-col-reverse lg:flex-row items-center ${
         reverse ? 'lg:flex-row-reverse' : ''
       }`}
       data-aos={animation}
@@ -60,7 +60,7 @@ const SectionWithCarousel = ({ heading, subheading, text, features, images, reve
         <div className="relative overflow-hidden shadow-lg">
           <div
             className={`transition-opacity duration-500 ${
-              isFading ? 'opacity-0' : 'opacity-100'
+              isFading ? 'opacity-20' : 'opacity-100'
             }`}
           >
             <img
@@ -92,7 +92,6 @@ export default function Sections() {
   return (
     <>
       
-
       {/* Showering Section */}
       <SectionWithCarousel
         heading="Showering Perfection"
@@ -105,13 +104,12 @@ export default function Sections() {
         ]}
         images={[
           'https://i.pinimg.com/736x/bd/93/39/bd9339a7a38a41e8d2569cb46b70214f.jpg',
-          'https://i.pinimg.com/236x/c7/19/af/c719afea0a959afc00e11d994e3a1205.jpg',
-          'https://i.pinimg.com/236x/6e/11/5c/6e115c6b1c023f79ac18d5f50c254b00.jpg',
+          'https://i.pinimg.com/736x/b2/ab/ef/b2abef324a825147bf72a3fcb4f7e3c4.jpg',
+          'https://i.pinimg.com/736x/ab/bd/68/abbd683694596534bd80ee417b5574c2.jpg',
         ]}
         reverse={false}
-        animation="fade-left"
+        animation="fade-right"
       />
-
       {/* Washbasin Section */}
       <SectionWithCarousel
         heading="Modern Washbasins"
@@ -124,8 +122,8 @@ export default function Sections() {
         ]}
         images={[
           'https://i.pinimg.com/736x/f8/31/fc/f831fc89432dfa55519c11fddc3cce62.jpg',
-          'https://i.pinimg.com/236x/62/2e/62/622e622526aa08c1c4bd60c8ff04e49b.jpg',
-          'https://i.pinimg.com/236x/4c/89/b8/4c89b81d9f533fdd08cbc3a978b39c6f.jpg',
+          'https://i.pinimg.com/736x/af/ff/fb/affffb777a1576f0d8a24afdc617854b.jpg',
+          'https://i.pinimg.com/736x/ad/61/80/ad6180bbe87e82c28351ee1691f2271a.jpg',
         ]}
         reverse={true}
         animation="fade-right"
@@ -143,16 +141,16 @@ export default function Sections() {
         ]}
         images={[
           'https://i.pinimg.com/736x/be/8c/0c/be8c0c098e6221a03dd80b68108c7e28.jpg',
-          'https://i.pinimg.com/236x/c9/5d/65/c95d653099bef6ee046c21308d34fe7a.jpg',
-          'https://i.pinimg.com/236x/15/4d/3f/154d3feae384dd06a49deee7aee1a4c2.jpg',
+          'https://i.pinimg.com/736x/dc/ee/c6/dceec6bfbd5d8ea30c503a02e12333a5.jpg',
+          'https://i.pinimg.com/736x/d9/1b/ee/d91beea5dee08f4a53cd55735bbdb787.jpg',
         ]}
         reverse={false}
-        animation="fade-left"
+        animation="fade-right"
       />
 
       {/* Tap Section */}
       <SectionWithCarousel
-        heading="Premium Taps"
+        heading="Premium Faucets"
         subheading="Craftsmanship at Its Best"
         text="Unparalleled craftsmanship and innovation in every tap, enhancing your bathroom experience."
         features={[
@@ -162,8 +160,8 @@ export default function Sections() {
         ]}
         images={[
           './pictures/walltap.jpg',
-          'https://i.pinimg.com/236x/eb/ed/5a/ebed5a13a0e4e5bb899de9f0d22675a1.jpg',
-          'https://i.pinimg.com/236x/76/46/fd/7646fdfc52071a3667c67141a037a102.jpg',
+          'https://i.pinimg.com/736x/8b/0c/15/8b0c159e1bbb6efd014dc6c318f0241b.jpg',
+          'https://i.pinimg.com/736x/82/fb/a1/82fba1223920e85fafa49c8328ffc6a4.jpg',
         ]}
         reverse={true}
         animation="fade-right"

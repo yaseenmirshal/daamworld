@@ -24,7 +24,7 @@ export default function Footer() {
               className="w-60 h-14 mb-4"
             />
             <p className="text-left text-md">
-              DaamWorld is a premium bath fitting brand known for quality and style. Enhance your bathroom with our products.
+              Daam is a premium bath fitting brand known for quality and style. Enhance your bathroom with our products.
             </p>
           </div>
 
@@ -71,10 +71,10 @@ export default function Footer() {
           <div className="flex flex-col items-start" data-aos="fade-up" data-aos-delay="200">
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-left">
-              <li>Location: 123 Bath Ave, City</li>
-              <li>Phone: +1 234 567 890</li>
+              <li>Location: India - UAE</li>
+              {/* <li>Phone: +1 234 567 890</li> */}
               <li>Email: info@daamworld.com</li>
-              <li>WhatsApp: +1 234 567 891</li>
+              {/* <li>WhatsApp: +1 234 567 891</li> */}
             </ul>
            
 
@@ -99,11 +99,16 @@ export default function Footer() {
   <a href="https://youtube.com/@daamworld?si=yk3vNas0FwcYj-Z8" target="_blank" rel="noopener noreferrer">
     <FaYoutube className="text-2xl hover:text-red-500" />
   </a>
+{/* X Logo using SVG from a public CDN */}
+<a href="https://x.com/DaamWorld?t=BrQI5z7rs7sq9axlaBF64g&s=09" target="_blank" rel="noopener noreferrer">
+  <img
+    src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg"
+    alt="X Logo"
+    className="w-8 h-8 mt-[-4px] hover:opacity-80 "
+  />
+</a>
 
-  {/* Twitter */}
-  <a href="https://x.com/DaamWorld?t=BrQI5z7rs7sq9axlaBF64g&s=09" target="_blank" rel="noopener noreferrer">
-    <FaTwitter className="text-2xl hover:text-blue-400" />
-  </a>
+
 </div>
 
 

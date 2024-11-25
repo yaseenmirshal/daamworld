@@ -9,7 +9,7 @@ export default function AboutSection() {
   }, []);
 
   return (
-    <section className="bg-[#1A1A1A] text-white py-16">
+    <section id='about' className="bg-[#1A1A1A] text-white py-16">
       <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-12">
         {/* Left: About Text */}
         <div className="flex-1 space-y-6" data-aos="fade-right">
@@ -60,7 +60,6 @@ export default function AboutSection() {
     </p>
   </div>
 </div>
-
         </div>
       </div>
     </section>

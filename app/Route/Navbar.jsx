@@ -13,6 +13,10 @@ export default function Navbar() {
     });
   }, []);
 
+  const handleCloseMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="bg-[#1a1a1a] text-[#faf1d4] shadow-md fixed top-0 w-full z-50">
       <div
@@ -51,7 +55,7 @@ export default function Navbar() {
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#ddb264] transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="#services"
+            href="#products"
             className="relative group hover:text-[#ddb264] transition-colors duration-300"
             data-aos="fade-up"
           >
@@ -105,6 +109,7 @@ export default function Navbar() {
       >
         <a
           href="#home"
+          onClick={handleCloseMenu}
           className="block px-4 py-2 text-center relative group hover:bg-[#1a1a1a] hover:text-[#ddb264] transition-colors duration-300"
         >
           Home
@@ -112,13 +117,15 @@ export default function Navbar() {
         </a>
         <a
           href="#about"
+          onClick={handleCloseMenu}
           className="block px-4 py-2 text-center relative group hover:bg-[#1a1a1a] hover:text-[#ddb264] transition-colors duration-300"
         >
           About
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#ddb264] transition-all duration-300 group-hover:w-full"></span>
         </a>
         <a
-          href="#services"
+          href="#products"
+          onClick={handleCloseMenu}
           className="block px-4 py-2 text-center relative group hover:bg-[#1a1a1a] hover:text-[#ddb264] transition-colors duration-300"
         >
           Products
@@ -126,6 +133,7 @@ export default function Navbar() {
         </a>
         <a
           href="#contact"
+          onClick={handleCloseMenu}
           className="block px-4 py-2 text-center relative group hover:bg-[#1a1a1a] hover:text-[#ddb264] transition-colors duration-300"
         >
           Contact
@@ -133,6 +141,7 @@ export default function Navbar() {
         </a>
         <a
           href="#contact"
+          onClick={handleCloseMenu}
           className="block mx-4 my-2 px-4 py-2 bg-[#ddb264] text-[#1a1a1a] font-semibold rounded hover:bg-[#faf1d4] transition-colors duration-300 text-center"
         >
           Get in Touch

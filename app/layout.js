@@ -24,7 +24,7 @@ const montserrat = Montserrat({
 
 export const metadata = {
   metadataBase: new URL ('https://www.daamworld.com/'),
-  keywords : ["daam","daamworld"],
+  keywords : ["daam","daamworld","bath fitting"],
   title: 'Daam',
   openGraph:{
     description: 'The Future Flow',
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`} // Apply fonts globally
       >
-        {/* <Navbar/> */}
+        <Navbar/>
         {children} {/* Render children */}
       </body>
     </html>

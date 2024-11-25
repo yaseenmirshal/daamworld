@@ -13,7 +13,7 @@ export default function Landing() {
 
   return (
     <>
-      <section
+      <section id='home'
         className="relative bg-cover bg-center h-screen flex items-center justify-center text-white"
         style={{ backgroundImage: `url('/pictures/bathroom.jpg')` }} // Replace with your image
       >
@@ -21,7 +21,7 @@ export default function Landing() {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
         <div className="relative z-10 text-left md:text-center px-6" data-aos="fade-up">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Discover Luxury Bath Fittings
           </h1>
           <p className="text-lg md:text-2xl mb-8">
