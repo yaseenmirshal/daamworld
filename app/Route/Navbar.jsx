@@ -20,11 +20,11 @@ export default function Navbar() {
   return (
     <nav className="bg-[#1a1a1a] text-[#faf1d4] shadow-md fixed top-0 w-full z-50">
       <div
-        className="container mx-auto flex justify-between items-center px-6 py-4"
+        className="container mx-auto flex justify-between items-center px-6 py-4 md:py-5"
         data-aos="fade-down"
       >
         {/* Logo */}
-        <div className="text-2xl font-bold">
+        <div className="text-2xl font-bold flex-shrink-0">
           <a href="#">
             <img
               width={130}
@@ -37,11 +37,10 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-16 font-medium">
+        <div className="hidden md:flex items-center space-x-8 lg:space-x-16 font-medium">
           <a
             href="#home"
             className="relative group hover:text-[#ddb264] transition-colors duration-300"
-            data-aos="fade-up"
           >
             Home
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#ddb264] transition-all duration-300 group-hover:w-full"></span>
@@ -49,7 +48,6 @@ export default function Navbar() {
           <a
             href="#about"
             className="relative group hover:text-[#ddb264] transition-colors duration-300"
-            data-aos="fade-up"
           >
             About
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#ddb264] transition-all duration-300 group-hover:w-full"></span>
@@ -57,7 +55,6 @@ export default function Navbar() {
           <a
             href="#products"
             className="relative group hover:text-[#ddb264] transition-colors duration-300"
-            data-aos="fade-up"
           >
             Products
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#ddb264] transition-all duration-300 group-hover:w-full"></span>
@@ -65,15 +62,13 @@ export default function Navbar() {
           <a
             href="#contact"
             className="relative group hover:text-[#ddb264] transition-colors duration-300"
-            data-aos="fade-up"
           >
             Contact
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#ddb264] transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             href="#contact"
-            className="ml-4 px-4 py-2 bg-[#ddb264] text-[#1a1a1a] font-semibold rounded hover:bg-[#faf1d4] transition-colors duration-300"
-            data-aos="fade-up"
+            className="ml-4 px-4 py-2 bg-[#ddb264] text-[#1a1a1a] font-semibold rounded hover:bg-[#faf1d4] transition-colors duration-300 text-sm md:text-base"
           >
             Get in Touch
           </a>
@@ -142,7 +137,7 @@ export default function Navbar() {
         <a
           href="#contact"
           onClick={handleCloseMenu}
-          className="block mx-4 my-2 px-4 py-2 bg-[#ddb264] text-[#1a1a1a] font-semibold rounded hover:bg-[#faf1d4] transition-colors duration-300 text-center"
+          className="block mx-4 my-2 px-4 py-2 bg-[#ddb264] text-[#1a1a1a] font-semibold rounded hover:bg-[#faf1d4] transition-colors duration-300 text-center text-sm"
         >
           Get in Touch
         </a>

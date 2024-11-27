@@ -18,11 +18,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-20">
           {/* DaamWorld Logo and Text */}
           <div className="flex flex-col items-start" data-aos="fade-up">
-            <img
-              src="./pictures/daamlogo.png"
-              alt="DaamWorld Logo"
-              className="w-60 h-14 mb-4"
-            />
+           <img
+            src="./pictures/daamlogo.png"
+            alt="DaamWorld Logo"
+            className="w-[200px] h-[50px] sm:w-[240px] sm:h-[56px] lg:w-[260px] lg:h-[60px] object-contain"
+          />
             <p className="text-left text-md">
               Daam is a premium bath fitting brand known for quality and style. Enhance your bathroom with our products.
             </p>
