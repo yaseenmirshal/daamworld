@@ -9,6 +9,7 @@ import Footer from "./Route/Footer";
 import Landing from "./Route/Landing";
 import Curousel from "./Route/Curousel";
 import Halfsection from "./Route/Halfsection";
+import Navbar from "./Route/Navbar";
 import Comingsoon from "./Route/Comingsoon";
 
 export default function Home() {
@@ -50,6 +51,7 @@ export default function Home() {
   return (
     <>
       {/* <Comingsoon/> */}
+      <Navbar/>
       <Landing />
       <About />
       <Halfsection />

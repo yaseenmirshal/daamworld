@@ -17,7 +17,7 @@ export default function AboutSection() {
             About <span className="text-[#ddb264]">Daam</span>
           </h2>
           <p className="text-lg leading-relaxed text-gray-300">
-            Welcome to Daam World, where creativity meets innovation. We specialize in delivering transformative solutions that drive success.
+            Welcome to Daam, where creativity meets innovation. We specialize in delivering transformative solutions that drive success.
           </p>
           <p className="text-lg leading-relaxed text-gray-300">
             Our dedicated team is committed to excellence, working collaboratively to help you achieve your goals and exceed expectations.

@@ -25,7 +25,7 @@ export default function Landing() {
             Discover Luxury Bath Fittings
           </h1>
           <p className="text-lg md:text-2xl mb-8">
-            Transform your bathroom with DaamWorld&apos;s premium designs and quality.
+            Transform your bathroom with Daam&apos;s premium designs and quality.
           </p>
           <a
             href="#products"
@@ -44,7 +44,7 @@ export default function Landing() {
               Luxury Redefined in Bath Fittings
             </h1>
             <p className="text-lg lg:text-xl">
-              Experience the perfect blend of design and functionality with DaamWorld&apos;s
+              Experience the perfect blend of design and functionality with Daam&apos;s
               premium bath fittings. Elevate your bathroom to a new level of elegance.
             </p>
           </div>
