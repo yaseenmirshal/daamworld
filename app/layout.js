@@ -23,14 +23,42 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  metadataBase: new URL ('https://www.daamworld.com/'),
-  keywords : ["daam","daamworld","bath fitting"],
-  title: 'Daam',
-  openGraph:{
-    description: 'The Future Flow',
-  }
-  
+  metadataBase: new URL('https://www.daamworld.com/'),
+  title: 'Daam - Premium Bath Fittings for Modern Homes',
+  keywords: [
+    'daam',
+    'daamworld',
+    'bath fittings',
+    'luxury bath fittings',
+    'modern bathroom accessories',
+    'high-quality bath fittings',
+    'bathroom renovation essentials'
+  ],
+  description: 'Discover premium bath fittings and accessories at Daam World. Explore modern designs and high-quality solutions to elevate your bathroom experience.',
+  openGraph: {
+    title: 'Daam - The Future of Bath Fittings',
+    description: 'Elevate your home with Daam’s cutting-edge bath fittings and modern bathroom accessories. Experience luxury and quality.',
+    url: 'https://www.daamworld.com/',
+    siteName: 'Daam World',
+    type: 'website',
+    images: [
+      {
+        url: 'https://www.daamworld.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Daam Bath Fittings',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Daam - Premium Bath Fittings for Modern Homes',
+    description: 'Upgrade your bathroom with Daam’s luxury bath fittings and accessories. Discover quality and style today.',
+    images: ['https://www.daamworld.com/twitter-image.jpg'],
+  },
 };
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
