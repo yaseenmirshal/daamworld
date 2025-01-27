@@ -27,9 +27,9 @@ export default function Navbar() {
         <div className="text-2xl font-bold flex-shrink-0">
           <a href="#">
             <img
-              width={130}
-              height={130}
-              src="./pictures/daamlogo.png"
+              width={140}
+              height={140}
+              src="./pictures/dmnew.png"
               alt="Logo"
               className="filter brightness-110"
             />

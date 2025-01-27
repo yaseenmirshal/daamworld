@@ -28,18 +28,19 @@ export default function Home() {
     return (
       <>
       {/* Desktop Loader */}
-<div className="flex items-center justify-center min-h-screen bg-black hidden md:block">
+      <div className="flex items-center justify-center min-h-screen bg-black hidden md:block">
   <img
-    src="/pictures/daamyell.png" // Replace with your loader image path
+    src="/pictures/dmdesk.png" // Replace with your loader image path
     alt="Loading..."
-    className="h-full w-full object-cover"
+    className="h-screen w-screen object-cover"
   />
 </div>
+
 
 {/* Mobile Loader */}
 <div className="flex md:hidden items-center justify-center min-h-screen bg-black">
   <img
-    src="/pictures/daamport.png" // Replace with your loader image path
+    src="/pictures/dmnewload.png" // Replace with your loader image path
     alt="Loading..."
     className="h-full w-full object-cover"
   />

@@ -19,9 +19,9 @@ export default function Footer() {
           {/* DaamWorld Logo and Text */}
           <div className="flex flex-col items-start" data-aos="fade-up">
            <img
-            src="./pictures/daamlogo.png"
+            src="./pictures/dmnew.png"
             alt="DaamWorld Logo"
-            className="w-[200px] h-[50px] sm:w-[240px] sm:h-[56px] lg:w-[260px] lg:h-[60px] object-contain"
+            className="w-[200px] h-[50px] sm:w-[240px] sm:h-[56px] lg:w-[200px] lg:h-[60px] object-contain"
           />
             <p className="text-left text-md">
               Daam is a premium bath fitting brand known for quality and style. Enhance your bathroom with our products.
