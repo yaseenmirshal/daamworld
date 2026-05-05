@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,18 +24,18 @@ export default function Navbar() {
         data-aos="fade-down"
       >
         {/* Logo */}
-        <div className="text-2xl font-bold flex-shrink-0">
-          <a href="#">
-            <img
-              width={140}
-              height={140}
-              src="./pictures/dmnew.png"
-              alt="Logo"
-              className="filter brightness-110"
-            />
-          </a>
-        </div>
-
+       <div className="text-2xl font-bold flex-shrink-0">
+  <a href="#">
+    <Image
+      src="/pictures/dmnew.png"
+      alt="Logo"
+      width={140}
+      height={140}
+      className="filter brightness-110"
+      priority
+    />
+  </a>
+</div>
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8 lg:space-x-16 font-medium">
           <a

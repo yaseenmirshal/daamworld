@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 export default function Landing() {
   useEffect(() => {
@@ -54,11 +55,15 @@ export default function Landing() {
             className="flex justify-center items-center"
             data-aos="fade-up"
           >
-            <img
-              src="/pictures/tapremoved.png" // Replace with your image path
-              alt="Modern Bath Fittings"
-              className="w-full max-w-lg rounded-lg shadow-lg"
-            />
+           <div className="relative w-full max-w-lg h-[300px] md:h-[400px]">
+  <Image
+    src="/pictures/tapremoved.png"
+    alt="Modern Bath Fittings"
+    fill
+    className="rounded-lg shadow-lg object-cover"
+    priority
+  />
+</div>
           </div>
         </div>
       </section>
