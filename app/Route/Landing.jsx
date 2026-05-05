@@ -60,7 +60,7 @@ export default function Landing() {
     src="/pictures/tapremoved.png"
     alt="Modern Bath Fittings"
     fill
-    className="rounded-lg shadow-lg object-cover"
+    className="rounded-lg -mt-2 object-cover"
     priority
   />
 </div>

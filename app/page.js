@@ -10,7 +10,7 @@ import Landing from "./Route/Landing";
 import Curousel from "./Route/Curousel";
 import Halfsection from "./Route/Halfsection";
 import Navbar from "./Route/Navbar";
-// import Product from "./Route/Product";
+import Product from "./Route/Product";
 // import Comingsoon from "./Route/Comingsoon";
 
 export default function Home() {

@@ -46,52 +46,49 @@ export default function ContactSection() {
           </div> */}
 
           {/* Right Side: Email Form */}
-        
-  <div className="bg-[#2e2e2e] p-8 rounded-lg shadow-lg w-full max-w-[650px]" data-aos="fade-up">
-    <h3 className="text-xl font-semibold text-[#ddb264] mb-6">Contact Us via Email</h3>
-    <form>
-      <div className="mb-4">
-        <label htmlFor="name" className="block text-sm font-semibold text-[#faf1d4]">Your Name</label>
-        <input
-          type="text"
-          id="name"
-          className="w-full p-3 mt-2 bg-[#1a1a1a] text-[#faf1d4] border border-[#ddb264] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ddb264]"
-          placeholder="Enter your name"
-        />
-      </div>
+          <div className="bg-[#2e2e2e] p-8 rounded-lg shadow-lg w-full max-w-[650px]" data-aos="fade-up">
+            <h3 className="text-xl font-semibold text-[#ddb264] mb-6">Contact Us via Email</h3>
+            <form>
+              <div className="mb-4">
+                <label htmlFor="name" className="block text-sm font-semibold text-[#faf1d4]">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  className="w-full p-3 mt-2 bg-[#1a1a1a] text-[#faf1d4] border border-[#ddb264] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ddb264]"
+                  placeholder="Enter your name"
+                />
+              </div>
 
-      <div className="mb-4">
-        <label htmlFor="email" className="block text-sm font-semibold text-[#faf1d4]">Your Email</label>
-        <input
-          type="email"
-          id="email"
-          className="w-full p-3 mt-2 bg-[#1a1a1a] text-[#faf1d4] border border-[#ddb264] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ddb264]"
-          placeholder="Enter your email"
-        />
-      </div>
+              <div className="mb-4">
+                <label htmlFor="email" className="block text-sm font-semibold text-[#faf1d4]">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  className="w-full p-3 mt-2 bg-[#1a1a1a] text-[#faf1d4] border border-[#ddb264] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ddb264]"
+                  placeholder="Enter your email"
+                />
+              </div>
 
-      <div className="mb-4">
-        <label htmlFor="message" className="block text-sm font-semibold text-[#faf1d4]">Your Message</label>
-        <textarea
-          id="message"
-          className="w-full p-3 mt-2 bg-[#1a1a1a] text-[#faf1d4] border border-[#ddb264] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ddb264]"
-          placeholder="Enter your message"
-          rows="4"
-        ></textarea>
-      </div>
+              <div className="mb-4">
+                <label htmlFor="message" className="block text-sm font-semibold text-[#faf1d4]">Your Message</label>
+                <textarea
+                  id="message"
+                  className="w-full p-3 mt-2 bg-[#1a1a1a] text-[#faf1d4] border border-[#ddb264] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ddb264]"
+                  placeholder="Enter your message"
+                  rows="4"
+                ></textarea>
+              </div>
 
-      <button
-        type="submit"
-        className="w-full py-3 bg-[#ddb264] text-[#1a1a1a] font-semibold rounded-md hover:bg-[#faf1d4] transition-all duration-300"
-      >
-        Send Message
-      </button>
-    </form>
-  </div>
-</div>
-
+              <button
+                type="submit"
+                className="w-full py-3 bg-[#ddb264] text-[#1a1a1a] font-semibold rounded-md hover:bg-[#faf1d4] transition-all duration-300"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
-    
+      </div>
     </section>
   );
 }
