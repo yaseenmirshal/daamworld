@@ -40,7 +40,7 @@ export default function Home() {
 {/* Mobile Loader */}
 <div className="flex md:hidden items-center justify-center min-h-screen bg-black">
   <img
-    src="/pictures/dmnewload.png" // Replace with your loader image path
+    src="/pictures/dmnewload.png" 
     alt="Loading..."
     className="h-full w-full object-cover"
   />
