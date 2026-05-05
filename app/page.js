@@ -1,25 +1,25 @@
 'use client'
+
 import { useState, useEffect } from "react";
-import Head from "next/head";
+import Image from "next/image";
 
 import About from "./Route/About";
-import Product from "./Route/Product";
 import Contact from "./Route/Contact";
 import Footer from "./Route/Footer";
 import Landing from "./Route/Landing";
 import Curousel from "./Route/Curousel";
 import Halfsection from "./Route/Halfsection";
 import Navbar from "./Route/Navbar";
-import Comingsoon from "./Route/Comingsoon";
+// import Product from "./Route/Product";
+// import Comingsoon from "./Route/Comingsoon";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a delay for loading
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Adjust the duration as needed
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -27,37 +27,40 @@ export default function Home() {
   if (isLoading) {
     return (
       <>
-      {/* Desktop Loader */}
-      <div className="flex items-center justify-center min-h-screen bg-black hidden md:block">
-  <img
-    src="/pictures/dmdesk.png" // Replace with your loader image path
-    alt="Loading..."
-    className="h-screen w-screen object-cover"
-  />
-</div>
+        {/* Desktop Loader */}
+        <div className="hidden md:block relative w-full h-screen bg-black">
+          <Image
+            src="/pictures/dmdesk.png"
+            alt="Loading..."
+            fill
+            priority
+            className="object-cover"
+          />
+        </div>
 
-
-{/* Mobile Loader */}
-<div className="flex md:hidden items-center justify-center min-h-screen bg-black">
-  <img
-    src="/pictures/dmnewload.png" 
-    alt="Loading..."
-    className="h-full w-full object-cover"
-  />
-</div>
-</>
+        {/* Mobile Loader */}
+        <div className="md:hidden relative w-full h-screen bg-black">
+          <Image
+            src="/pictures/dmnewload.png"
+            alt="Loading..."
+            fill
+            priority
+            className="object-cover"
+          />
+        </div>
+      </>
     );
   }
 
   return (
     <>
-      {/* <Comingsoon/> */}
-      <Navbar/>
+      {/* <Comingsoon /> */}
+      <Navbar />
       <Landing />
       <About />
       <Halfsection />
       <Curousel />
-      {/* <Product/> */}
+      {/* <Product /> */}
       <Contact />
       <Footer />
     </>
